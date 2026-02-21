@@ -1,8 +1,0 @@
-pages_build_output_dir = "./dist"
-name = "nepsenx"            # আপনার প্রোজেক্টের নাম
-type = "webpack"            # TypeScript / TSX এর জন্য সাধারণভাবে webpack ব্যবহার করা হয়
-compatibility_date = "2026-06-26"
-
-[build]
-command = "npm run build"   # Next.js বা React build কমান্ড
-cwd = "."                   # root directory
