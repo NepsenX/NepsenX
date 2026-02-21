@@ -1,1 +1,8 @@
 { "name": "nepsenx", "private": true, "version": "2.0.0" }
+{
+  "name": "nepsenx-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd products/home/frontend && npm install && npm run build"
+  }
+}
