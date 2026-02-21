@@ -1,0 +1,1 @@
+// Template front logic

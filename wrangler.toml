@@ -1,0 +1,12 @@
+name = "nepsenx-platform"
+main = "index.ts" # মেইন রাউটার
+compatibility_date = "2024-05-03"
+
+[assets]
+directory = "." # আপনার সব SaaS ফোল্ডার এক্সেস করার জন্য
+binding = "ASSETS"
+
+# Assistant Worker এর জন্য বাইন্ডিং (ভারী কাজের জন্য)
+[[services]]
+binding = "ASSISTANT"
+service = "nepsenx-assistant-worker"
