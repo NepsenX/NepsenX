@@ -1,5 +1,1 @@
-# Cloudflare Pages এর জন্য সঠিক কনফিগারেশন
-pages_build_output_dir = "dist" 
 
-[vars]
-ENVIRONMENT = "production"
