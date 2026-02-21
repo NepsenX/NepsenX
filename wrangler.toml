@@ -2,8 +2,7 @@ pages_build_output_dir = "./dist"
 name = "nepsenx"            # আপনার প্রোজেক্টের নাম
 type = "webpack"            # TypeScript / TSX এর জন্য সাধারণভাবে webpack ব্যবহার করা হয়
 account_id = "bea20bc6c3d659b639a74def053cac39"
-workers_dev = true
-compatibility_date = "2026-02-21"
+compatibility_date = "2026-06-26"
 
 [build]
 command = "npm run build"   # Next.js বা React build কমান্ড
