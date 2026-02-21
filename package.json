@@ -6,3 +6,9 @@
     "build": "cd products/home/frontend && npm install && npm run build"
   }
 }
+{
+  "name": "nepsenx-ultimate",
+  "scripts": {
+    "build": "cd products/home/frontend && npm install && npm run build"
+  }
+}
