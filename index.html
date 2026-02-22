@@ -3,11 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NepsenX</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      html, body {
+        width: 100%;
+        height: 100%;
+      }
+      
+      #root {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <!-- All page data including title comes from index.tsx -->
     <script type="module" src="./index.tsx"></script>
+    <noscript>
+      <div style="color: red; width: 100%; padding: 5% 0%; text-align: center;">
+        JavaScript is required to run this application. Please enable JavaScript in your browser.
+      </div>
+    </noscript>
   </body>
 </html>
- 
