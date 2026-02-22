@@ -1312,8 +1312,8 @@ NepsenX-codes/
 ├── .env.production                # Production environment variables
 ├── .env.staging                   # Staging environment variables
 ├── .gitignore                     # Git ignore rules
-├── index.ts
-├── wrangler.toml
+├── index.tsx                      # rooter tsx
+├── index.html                     # rooter html
 ├── .dockerignore                  # Docker ignore rules
 ├── package.json                   # Root package.json (monorepo)
 ├── tsconfig.json                  # Root TypeScript config
