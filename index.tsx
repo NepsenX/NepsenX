@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import { loadApp } from './src/appResolver'; // 🔹 path inside src
 
 // Domain to product mapping with SEO data
 const domainConfig: Record<string, {
