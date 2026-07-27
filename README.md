@@ -1,5 +1,5 @@
 <div align="center">
-<img width="100%" height="100%" alt="GHBanner" src="https://raw.githubusercontent.com/NepsenX/NepsenX-n/refs/heads/main/frontend/public/nepsenx-og.png?token=GHSAT0AAAAAAECI2RPRHWC32QD7ZVMCGQV42THPWRA" />
+<img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX-n/blob/main/frontend/public/nepsenx-og.png" />
 </div>
 
 # NepsenX
