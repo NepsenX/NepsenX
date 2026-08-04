@@ -1,1 +1,0 @@
-// DirectX Frame Interception logic
