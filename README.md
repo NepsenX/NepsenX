@@ -55,6 +55,7 @@ NepsenX Intelligence is the AI research and development division of NepsenX. It 
       <div align="center">
       <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/oracus-og.png" />
       </div>
+  
 ### Oracus AI
 The world's first autonomous self-trained-thinking-enloving-adupting agentic AI Model.powered by NepsenX .hyper-scale ai, agentic artificial intelligence, self-training ai, autonomous automation, virtual compute architecture, infinite algorithmic reasoning, enterprise ai solutions, local inference model, next-gen neural processing, advanced cognitive systems . Main AI model of NepsenX tech company.Main page of Oracus AI.
 
@@ -77,6 +78,7 @@ NepsenX SaaS develops cloud-based software platforms that help individuals, crea
       <div align="center">
       <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/adupter-og.png" />
       </div>
+  
 ### Adupter
 Autonomous AI enterprise marketing engine. Orchestrating omnichannel campaigns and adaptive customer lifecycle management.
 
@@ -87,20 +89,18 @@ Visit: https://adupter.pages.dev
       <div align="center">
       <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/cg-og.png" />
       </div>
+  
 ### CG
 Unrestricted cloud gaming architecture. High-fidelity, zero-latency interactive entertainment without hardware dependency.
 
 Visit: https://cg-nepsenx.pages.dev
-
-<div align="center">
-<img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX-n/blob/main/frontend/public/opena-og.png" />
-</div>
 
 </details>
 <details><summary><strong>OpenA</strong></summary> 
       <div align="center">
       <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/opena-og.png" />
       </div>
+  
 ## OpenA
 The infinite decentralized super-app. A peer-to-peer ecosystem for global communication, commerce, and intelligent search.
 
@@ -109,8 +109,9 @@ Visit: https://opena-nepsenx.pages.dev
 </details>
 <details><summary><strong>BasiKno</strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/BasiKno-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/basikno-og.png" />
       </div>
+  
 ### BasiKno
 e-learning. Democratizing global education through autonomous AI tutoring and spatial knowledge ecosystems.
 
@@ -119,8 +120,9 @@ Visit: https://basikno.pages.dev
 </details>
 <details><summary><strong>Ishahi</strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/Ishahi-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/ishahi-og.png" />
       </div>
+  
 ### Ishahi
 The premium global Islamic ecosystem. Advanced chronometrics, dynamic networking, and immersive worldwide congregation.
 
@@ -128,9 +130,11 @@ Visit: https://ishahi.pages.dev
 
 </details>
 <details><summary><strong>VirtuBrowse</strong></summary> 
+  
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/VirtuBrowse-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/virtubrowse-og.png" />
       </div>
+  
 ### VirtuBrowse
 Impenetrable virtual browsing. Edge-compute sandboxing for absolute cryptographic privacy and untraceable navigation.
 
