@@ -25,6 +25,7 @@
 </div>
 
 
+
 # NepsenX
 
 NepsenX is an independent tech company from Bangladesh that develops SaaS products and advanced digital technologies. They plan to expand into AI-powered hardware like smart vehicles, glasses, and environmental devices. 
