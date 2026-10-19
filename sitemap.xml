@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://nepsenx.pages.dev/</loc><changefreq>monthly</changefreq><priority>1.0</priority>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-logo.png</image:loc><image:title>nepsenx logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-og.png</image:loc><image:title>nepsenx og</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-cta.jpg</image:loc><image:title>nepsenx cta</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-intelligence-logo.png</image:loc><image:title>nepsenx intelligence logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-io-logo.png</image:loc><image:title>nepsenx io logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-motors-logo.png</image:loc><image:title>nepsenx motors logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-techware-dark.png</image:loc><image:title>nepsenx techware dark</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/nepsenx-techware-light.png</image:loc><image:title>nepsenx techware light</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/NepsenX-SaaS.png</image:loc><image:title>NepsenX SaaS</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/oracus-dark-logo.png</image:loc><image:title>oracus dark logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/oracus-light-logo.png</image:loc><image:title>oracus light logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/oracus-og.png</image:loc><image:title>oracus og</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/oracus-cta.webp</image:loc><image:title>oracus cta</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/adupter-logo.png</image:loc><image:title>adupter logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/adupter-og.png</image:loc><image:title>adupter og</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/basikno-logo.png</image:loc><image:title>basikno logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/basikno-bg.gif</image:loc><image:title>basikno bg</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/basikno-cta.jpg</image:loc><image:title>basikno cta</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/basikno-loading.webp</image:loc><image:title>basikno loading</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/cg-logo.png</image:loc><image:title>cg logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/cg-og.png</image:loc><image:title>cg og</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/cg-cta.jpg</image:loc><image:title>cg cta</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/opena-logo.png</image:loc><image:title>opena logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/opena-og.png</image:loc><image:title>opena og</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/ishahi-logo.png</image:loc><image:title>ishahi logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/virtubrowse-logo.png</image:loc><image:title>virtubrowse logo</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/virtubrowse-og.png</image:loc><image:title>virtubrowse og</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/light-cta.avif</image:loc><image:title>light cta</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/login-bg.jpg</image:loc><image:title>login bg</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/video-bg.png</image:loc><image:title>video bg</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/vision.png</image:loc><image:title>vision</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/victory.png</image:loc><image:title>victory</image:title></image:image>
-    <image:image><image:loc>https://nepsenx.pages.dev/public/winner.png</image:loc><image:title>winner</image:title></image:image>
+  <url><loc>https://db-nepsenx.pages.dev/</loc><changefreq>monthly</changefreq><priority>1.0</priority>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-logo.png</image:loc><image:title>nepsenx logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-og.png</image:loc><image:title>nepsenx og</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-cta.jpg</image:loc><image:title>nepsenx cta</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-intelligence-logo.png</image:loc><image:title>nepsenx intelligence logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-io-logo.png</image:loc><image:title>nepsenx io logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-motors-logo.png</image:loc><image:title>nepsenx motors logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-techware-dark.png</image:loc><image:title>nepsenx techware dark</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/nepsenx-techware-light.png</image:loc><image:title>nepsenx techware light</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/NepsenX-SaaS.png</image:loc><image:title>NepsenX SaaS</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/oracus-dark-logo.png</image:loc><image:title>oracus dark logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/oracus-light-logo.png</image:loc><image:title>oracus light logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/oracus-og.png</image:loc><image:title>oracus og</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/oracus-cta.webp</image:loc><image:title>oracus cta</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/adupter-logo.png</image:loc><image:title>adupter logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/adupter-og.png</image:loc><image:title>adupter og</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/basikno-logo.png</image:loc><image:title>basikno logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/basikno-bg.gif</image:loc><image:title>basikno bg</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/basikno-cta.jpg</image:loc><image:title>basikno cta</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/basikno-loading.webp</image:loc><image:title>basikno loading</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/cg-logo.png</image:loc><image:title>cg logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/cg-og.png</image:loc><image:title>cg og</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/cg-cta.jpg</image:loc><image:title>cg cta</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/opena-logo.png</image:loc><image:title>opena logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/opena-og.png</image:loc><image:title>opena og</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/ishahi-logo.png</image:loc><image:title>ishahi logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/virtubrowse-logo.png</image:loc><image:title>virtubrowse logo</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/virtubrowse-og.png</image:loc><image:title>virtubrowse og</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/light-cta.avif</image:loc><image:title>light cta</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/login-bg.jpg</image:loc><image:title>login bg</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/video-bg.png</image:loc><image:title>video bg</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/vision.png</image:loc><image:title>vision</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/victory.png</image:loc><image:title>victory</image:title></image:image>
+    <image:image><image:loc>https://db-nepsenx.pages.dev/public/winner.png</image:loc><image:title>winner</image:title></image:image>
   </url>
-  <url><loc>https://nepsenx.pages.dev/assets.json</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://db-nepsenx.pages.dev/assets.json</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
