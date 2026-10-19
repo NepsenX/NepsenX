@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-Proprietary-red)
 [![NepsenX](https://img.shields.io/badge/NepsenX-nepsenx.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx.pages.dev)
 [![NepsenX Intelligence](https://img.shields.io/badge/NepsenX%20Intelligence-nepsenx--intelligence.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-intelligence.pages.dev)
-[![NepsenX SaaS](https://img.shields.io/badge/NepsenX%20SaaS-nepsenx--saas.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-saas.pages.dev)
+[![NepsenX IO](https://img.shields.io/badge/NepsenX%20IO-nepsenx-saas.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-saas.pages.dev)
 [![NepsenX Motors](https://img.shields.io/badge/NepsenX%20Motors-nepsenx--motors.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-motors.pages.dev)
 [![NepsenX Techware](https://img.shields.io/badge/NepsenX%20Techware-nepsenx--techware.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-techware.pages.dev)
 [![NepsenX Auth](https://img.shields.io/badge/NepsenX%20Auth-auth--nepsenx.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://auth-nepsenx.pages.dev)
@@ -68,15 +68,15 @@ Visit: https://oracus.pages.dev
 
 
 
-# 2. NepsenX SaaS
+# 2. NepsenX IO
 
   <div align="center">
-      <img width="20%" height="20%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/NepsenX-SaaS.png" />
+      <img width="20%" height="20%" alt="NepsenX IO logo" src="https://db-nepsenx.pages.dev/public/nepsenx-io-logo.png" />
   </div>
 
-**Focus:** Software as a Service (SaaS)
+**Focus:** Cloud Software & Digital Workflows
 
-NepsenX SaaS develops cloud-based software platforms that help individuals, creators, businesses, and organizations improve productivity and streamline digital workflows. The division focuses on secure, scalable, and user-friendly online services.
+NepsenX IO develops cloud-based software platforms that help individuals, creators, businesses, and organizations improve productivity and streamline digital workflows. The division focuses on secure, scalable, and user-friendly online services.
 
 ## Products
 
