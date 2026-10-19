@@ -35,5 +35,11 @@
     <image:image><image:loc>https://db-nepsenx.pages.dev/public/victory.png</image:loc><image:title>victory</image:title></image:image>
     <image:image><image:loc>https://db-nepsenx.pages.dev/public/winner.png</image:loc><image:title>winner</image:title></image:image>
   </url>
+  <url><loc>https://db-nepsenx.pages.dev/github.html</loc></url>
+  <url><loc>https://db-nepsenx.pages.dev/huggingface.html</loc></url>
+  <url><loc>https://db-nepsenx.pages.dev/explorer.html</loc></url>
+  <url><loc>https://db-nepsenx.pages.dev/hub-explorer.html</loc></url>
+  <url><loc>https://db-nepsenx.pages.dev/media.html</loc></url>
+  <url><loc>https://db-nepsenx.pages.dev/community.html</loc></url>
   <url><loc>https://db-nepsenx.pages.dev/assets.json</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
