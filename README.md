@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-Proprietary-red)
 [![NepsenX](https://img.shields.io/badge/NepsenX-nepsenx.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx.pages.dev)
 [![NepsenX Intelligence](https://img.shields.io/badge/NepsenX%20Intelligence-nepsenx--intelligence.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-intelligence.pages.dev)
-[![NepsenX IO](https://img.shields.io/badge/NepsenX%20IO-nepsenx-saas.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-saas.pages.dev)
+[![NepsenX IO](https://img.shields.io/badge/NepsenX%20IO-cloud--software-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-saas.pages.dev)
 [![NepsenX Motors](https://img.shields.io/badge/NepsenX%20Motors-nepsenx--motors.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-motors.pages.dev)
 [![NepsenX Techware](https://img.shields.io/badge/NepsenX%20Techware-nepsenx--techware.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://nepsenx-techware.pages.dev)
 [![NepsenX Auth](https://img.shields.io/badge/NepsenX%20Auth-auth--nepsenx.pages.dev-0d6efd?style=flat-square&logo=google-chrome&logoColor=white)](https://auth-nepsenx.pages.dev)
