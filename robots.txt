@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nepsenx.pages.dev/sitemap.xml
+Sitemap: https://db-nepsenx.pages.dev/sitemap.xml
