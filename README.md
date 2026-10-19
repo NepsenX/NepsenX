@@ -1,5 +1,5 @@
 <div align="center">
-<img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/nepsenx-og.png" />
+<img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/nepsenx-og.png" />
 </div>
 <div align="center">
   
@@ -44,7 +44,7 @@ NepsenX operates through multiple specialized divisions, each focused on a disti
 # 1. NepsenX Intelligence
 
 <div align="center">
-<img width="20%" height="20%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/nepsenx-intelligence-logo.png" />
+<img width="20%" height="20%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/nepsenx-intelligence-logo.png" />
 </div>
 
 **Focus:** Artificial Intelligence & Intelligent Systems
@@ -55,7 +55,7 @@ NepsenX Intelligence is the AI research and development division of NepsenX. It 
 
 <details><summary><strong> Oracus AI </strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/oracus-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/oracus-og.png" />
       </div>
   
 ### Oracus AI
@@ -71,7 +71,7 @@ Visit: https://oracus.pages.dev
 # 2. NepsenX SaaS
 
   <div align="center">
-      <img width="20%" height="20%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/NepsenX-SaaS.png" />
+      <img width="20%" height="20%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/NepsenX-SaaS.png" />
   </div>
 
 **Focus:** Software as a Service (SaaS)
@@ -82,7 +82,7 @@ NepsenX SaaS develops cloud-based software platforms that help individuals, crea
 
 <details><summary><strong>Adupter</strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/adupter-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/adupter-og.png" />
       </div>
   
 ### Advanced Autonomous AI Enterprise Marketing Engine
@@ -100,7 +100,7 @@ Visit: https://adupter.pages.dev
 </details>
 <details><summary><strong>CG</strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/cg-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/cg-og.png" />
       </div>
   
 ### Unrestricted Cloud Gaming Architecture
@@ -117,7 +117,7 @@ Visit: https://cg-nepsenx.pages.dev
 </details>
 <details><summary><strong>OpenA</strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/opena-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/opena-og.png" />
       </div>
   
 ### The Infinite Decentralized Super-App
@@ -135,7 +135,7 @@ Visit: https://opena-nepsenx.pages.dev
 </details>
 <details><summary><strong>BasiKno</strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/basikno-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/basikno-og.png" />
       </div>
   
 ### AI-Driven Spatial E-Learning Architecture
@@ -154,7 +154,7 @@ Visit: https://basikno.pages.dev
 </details>
 <details><summary><strong>Ishahi</strong></summary> 
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/ishahi-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/ishahi-og.png" />
       </div>
   
 ### The Premium Global Islamic Ecosystem
@@ -174,7 +174,7 @@ Visit: https://ishahi.pages.dev
 <details><summary><strong>VirtuBrowse</strong></summary> 
   
       <div align="center">
-      <img width="100%" height="100%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/virtubrowse-og.png" />
+      <img width="100%" height="100%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/virtubrowse-og.png" />
       </div>
   
 ### Impenetrable Virtual Browsing Architecture
@@ -196,7 +196,7 @@ Visit: https://virtubrowse.pages.dev
 # 3. NepsenX Motors
 
   <div align="center">
-      <img width="40%" height="40%" alt="GHBanner" src="https://github.com/NepsenX/NepsenX/blob/main/public/nepsenx-motors-logo.png" />
+      <img width="40%" height="40%" alt="GHBanner" src="https://db-nepsenx.pages.dev/public/nepsenx-motors-logo.png" />
   </div>
 
       
@@ -216,10 +216,10 @@ NepsenX Motors is the division of our technology group entirely dedicated to the
 <table align="center">
 <tr>
 <td align="center" width="50%">
-<img src="https://github.com/NepsenX/NepsenX/blob/main/public/nepsenx-techware-dark.png" alt="techware 1" width="40%">
+<img src="https://db-nepsenx.pages.dev/public/nepsenx-techware-dark.png" alt="techware 1" width="40%">
 </td>
 <td align="center" width="50%">
-<img src="https://github.com/NepsenX/NepsenX/blob/main/public/nepsenx-techware-light.png" alt="techware 2" width="40%">
+<img src="https://db-nepsenx.pages.dev/public/nepsenx-techware-light.png" alt="techware 2" width="40%">
 </td>
 </tr>
 </table>
