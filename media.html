@@ -34,7 +34,22 @@
 <script>
 (function(){const $=NX.$;let assets=[];const imageExt=/\.(png|jpe?g|gif|webp|svg|avif|bmp|ico)$/i;
 function render(){const q=$("filter").value.toLowerCase().trim();const list=assets.filter(x=>(x.name+" "+x.repo+" "+x.path).toLowerCase().includes(q));$("galleryGrid").innerHTML=list.map(x=>'<article class="media-card"><a href="'+NX.url(x.raw)+'" target="_blank" rel="noopener"><img loading="lazy" src="'+NX.url(x.raw)+'" alt="'+NX.esc(x.name)+'" onerror="this.style.opacity=.25"></a><div class="media-caption"><strong>'+NX.esc(x.name)+'</strong><small>'+NX.esc(x.repo)+' · '+NX.esc(x.path)+'</small><a href="'+NX.url(x.page)+'" target="_blank" rel="noopener">Open source file ↗</a></div></article>').join("")||'<div class="empty">No images matched this filter.</div>';$("summary").textContent=list.length+" image assets shown · "+assets.length+" indexed";}
-async function load(){assets=[];$("status").textContent="Loading public repositories…";$("galleryGrid").innerHTML="";try{const repos=await NX.get("https://api.github.com/users/NepsenX/repos?type=owner&sort=updated&per_page=100");const selected=repos.filter(r=>!r.private).slice(0,35);$("status").textContent="Scanning image assets across "+selected.length+" public repositories…";let cursor=0;async function worker(){while(cursor<selected.length){const r=selected[cursor++];try{const tree=await NX.get("https://api.github.com/repos/"+encodeURIComponent(r.owner.login)+"/"+encodeURIComponent(r.name)+"/git/trees/"+encodeURIComponent(r.default_branch)+"?recursive=1");(tree.tree||[]).filter(f=>f.type==="blob"&&imageExt.test(f.path)).forEach(f=>{const raw="https://raw.githubusercontent.com/"+r.full_name+"/"+r.default_branch+"/"+f.path.split("/").map(encodeURIComponent).join("/");assets.push({name:f.path.split("/").pop(),repo:r.full_name,path:f.path,raw:raw,page:r.html_url+"/blob/"+r.default_branch+"/"+f.path.split("/").map(encodeURIComponent).join("/")})})}catch(e){}}}await Promise.all([worker(),worker(),worker(),worker(),worker()]);assets.sort((a,b)=>a.repo.localeCompare(b.repo)||a.path.localeCompare(b.path));render();$("status").textContent="Finished indexing accessible public image files. Some repositories may be skipped if GitHub rate limits are reached."}catch(e){$("status").textContent=e.message+" — GitHub may be rate-limited.";}}
+async function load(){assets=[];$("status").textContent="Loading NepsenX public media manifest…";$("galleryGrid").innerHTML="";
+try{
+ const manifestResponse=await fetch("https://db-nepsenx.pages.dev/assets.json");
+ if(!manifestResponse.ok)throw Error("Public media manifest returned "+manifestResponse.status);
+ const manifest=await manifestResponse.json();
+ (manifest.assets||[]).forEach(a=>assets.push({name:a.file,repo:"NepsenX public folder · "+(a.category||"media"),path:"public/"+a.file,raw:a.url,page:a.source||a.url,title:a.title||a.file}));
+ render();$("status").textContent=(manifest.assets||[]).length+" public-folder assets loaded from db-nepsenx.pages.dev/assets.json. Checking GitHub project images…";
+ try{
+  const repos=await NX.get("https://api.github.com/users/NepsenX/repos?type=owner&sort=updated&per_page=100");
+  const selected=repos.filter(r=>!r.private).slice(0,25);let cursor=0;
+  async function worker(){while(cursor<selected.length){const r=selected[cursor++];try{const tree=await NX.get("https://api.github.com/repos/"+encodeURIComponent(r.owner.login)+"/"+encodeURIComponent(r.name)+"/git/trees/"+encodeURIComponent(r.default_branch)+"?recursive=1");(tree.tree||[]).filter(f=>f.type==="blob"&&imageExt.test(f.path)).forEach(f=>{const raw="https://raw.githubusercontent.com/"+r.full_name+"/"+r.default_branch+"/"+f.path.split("/").map(encodeURIComponent).join("/");assets.push({name:f.path.split("/").pop(),repo:r.full_name,path:f.path,raw:raw,page:r.html_url+"/blob/"+r.default_branch+"/"+f.path.split("/").map(encodeURIComponent).join("/")})})}catch(e){}}}
+  await Promise.all([worker(),worker(),worker(),worker()]);const seen=new Set();assets=assets.filter(a=>{if(seen.has(a.raw))return false;seen.add(a.raw);return true});
+ }catch(e){$("status").textContent="Public-folder assets loaded; GitHub image indexing was limited: "+e.message}
+ assets.sort((a,b)=>a.repo.localeCompare(b.repo)||a.path.localeCompare(b.path));render();$("status").textContent="Loaded "+assets.length+" unique public media assets, including the db-nepsenx public folder and accessible GitHub repositories.";
+}catch(e){$("status").textContent="Could not load the public media manifest: "+e.message+" — check db-nepsenx.pages.dev/assets.json."}
+}
 $("filter").addEventListener("input",render);$("reload").addEventListener("click",load);load();
 })();
 </script></body></html>
