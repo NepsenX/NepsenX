@@ -1,0 +1,60 @@
+{
+  "schema": "comodel-power-table-index",
+  "version": 1,
+  "description": "Exact integer powers for bases 1–255 and exponents 1–255. Each value is stored as a decimal string to preserve arbitrary precision.",
+  "lookup": "powers[base - base_min][exponent - 1]",
+  "exponent_min": 1,
+  "exponent_max": 255,
+  "base_min": 1,
+  "base_max": 255,
+  "chunks": [
+    {
+      "path": "data/comodel/powers/base-001-016.json"
+    },
+    {
+      "path": "data/comodel/powers/base-017-032.json"
+    },
+    {
+      "path": "data/comodel/powers/base-033-048.json"
+    },
+    {
+      "path": "data/comodel/powers/base-049-064.json"
+    },
+    {
+      "path": "data/comodel/powers/base-065-080.json"
+    },
+    {
+      "path": "data/comodel/powers/base-081-096.json"
+    },
+    {
+      "path": "data/comodel/powers/base-097-112.json"
+    },
+    {
+      "path": "data/comodel/powers/base-113-128.json"
+    },
+    {
+      "path": "data/comodel/powers/base-129-144.json"
+    },
+    {
+      "path": "data/comodel/powers/base-145-160.json"
+    },
+    {
+      "path": "data/comodel/powers/base-161-176.json"
+    },
+    {
+      "path": "data/comodel/powers/base-177-192.json"
+    },
+    {
+      "path": "data/comodel/powers/base-193-208.json"
+    },
+    {
+      "path": "data/comodel/powers/base-209-224.json"
+    },
+    {
+      "path": "data/comodel/powers/base-225-240.json"
+    },
+    {
+      "path": "data/comodel/powers/base-241-255.json"
+    }
+  ]
+}
