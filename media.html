@@ -28,9 +28,36 @@
 <article class="card"><h3>Company website</h3><p>NepsenX main public website and product links.</p><a class="btn" href="https://nepsenx.pages.dev/" target="_blank" rel="noopener">Open website ↗</a></article>
 </div></section>
 <section class="section" id="gallery"><div class="section-head"><div><div class="eyebrow-light">LIVE IMAGE INDEX</div><h2>Public image assets</h2><p id="summary">Searching public repositories for image files…</p></div><button class="btn" id="reload">Refresh library</button></div><div class="toolbar"><input id="filter" class="field" placeholder="Filter images by file, repository or path"></div><div id="status" class="status">Connecting to GitHub public API…</div><div id="galleryGrid" class="gallery"></div></section>
+<section class="section" id="comodel-powers"><div class="section-head"><div><div class="eyebrow-light">COMODEL · MATHEMATICAL DATA</div><h2>Power table (1–255)</h2><p>Browse exact integer powers from the public CMR dataset. Select a base to view its powers for exponents 1 through 255.</p></div><a class="btn" href="https://github.com/NepsenX/NepsenX/tree/main/data/comodel/powers" target="_blank" rel="noopener">Open JSON source ↗</a></div><div class="toolbar" style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><label for="powerBase">Base</label><select id="powerBase" class="field" style="max-width:180px"></select><input id="powerSearch" class="field" style="max-width:300px" placeholder="Filter exponent or exact value"><span id="powerSummary" class="muted">Loading power data…</span></div><div id="powerStatus" class="status">Loading selected base…</div><div style="overflow:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)"><table id="powerTable" style="width:100%;border-collapse:collapse;min-width:520px"><thead><tr><th style="padding:11px;text-align:left;border-bottom:1px solid var(--line)">Base</th><th style="padding:11px;text-align:left;border-bottom:1px solid var(--line)">Exponent</th><th style="padding:11px;text-align:left;border-bottom:1px solid var(--line)">Exact value (base<sup>exponent</sup>)</th></tr></thead><tbody id="powerRows"><tr><td colspan="3" style="padding:14px">Loading…</td></tr></tbody></table></div><div class="hero-actions" style="margin-top:14px"><button class="btn" id="powerPrev">← Previous 25</button><span id="powerPage" class="muted">Page 1</span><button class="btn" id="powerNext">Next 25 →</button></div><p class="muted" style="font-size:12px">Values are exact decimal strings. These files are lookup data; the table does not imply that every value is within 0–255.</p></section>
 <section class="section"><div class="notice">Missing a logo, photo or public folder? If it is stored in a public GitHub repository, paste the repository URL into <a href="explorer.html">File Explorer</a>. If “db-nepsenx” is a deployed site rather than a public GitHub repository, its public assets can only be indexed automatically if the site exposes a public asset manifest or API.</div></section>
 </main><footer class="footer"><div class="shell footer-inner"><span>© NepsenX · Public Company Hub</span><span>Media discovery from public sources.</span><span><a href="community.html">Community</a> · <a href="https://github.com/NepsenX">GitHub</a></span></div></footer>
 <script src="assets/common.js"></script>
+<script>
+(function(){
+const baseSelect=document.getElementById("powerBase"),search=document.getElementById("powerSearch"),rows=document.getElementById("powerRows"),status=document.getElementById("powerStatus"),summary=document.getElementById("powerSummary"),pageLabel=document.getElementById("powerPage");
+if(!baseSelect||!rows)return;
+let allRows=[],page=0;const pageSize=25,cache=new Map();
+for(let b=1;b<=255;b++){const o=document.createElement("option");o.value=String(b);o.textContent=String(b);baseSelect.appendChild(o)}
+async function loadBase(){
+ const base=Number(baseSelect.value||1),start=Math.floor((base-1)/16)*16+1,end=Math.min(start+15,255),key=start+"-"+end;
+ status.textContent="Loading exact powers for base "+base+"…";rows.innerHTML='<tr><td colspan="3" style="padding:14px">Loading…</td></tr>';
+ try{
+  let data=cache.get(key);
+  if(!data){const url="https://raw.githubusercontent.com/NepsenX/NepsenX/main/data/comodel/powers/base-"+String(start).padStart(3,"0")+"-"+String(end).padStart(3,"0")+".json";const response=await fetch(url);if(!response.ok)throw new Error("Dataset request failed ("+response.status+")");data=await response.json();cache.set(key,data)}
+  const baseIndex=base-start;const values=data.powers[baseIndex];if(!values)throw new Error("Base row not found in dataset");
+  allRows=values.map((value,i)=>({base,exponent:i+1,value}));page=0;render();status.textContent="Loaded base "+base+" from public JSON dataset.";
+ }catch(e){allRows=[];render();status.textContent="Could not load power data: "+e.message}
+}
+function render(){
+ const q=search.value.trim().toLowerCase();const filtered=allRows.filter(r=>String(r.exponent).includes(q)||r.value.includes(q)||String(r.base).includes(q));const pages=Math.max(1,Math.ceil(filtered.length/pageSize));page=Math.min(page,pages-1);const visible=filtered.slice(page*pageSize,(page+1)*pageSize);
+ rows.innerHTML=visible.map(r=>"<tr><td style='padding:10px 11px;border-bottom:1px solid var(--line)'>"+r.base+"</td><td style='padding:10px 11px;border-bottom:1px solid var(--line)'>"+r.exponent+"</td><td style='padding:10px 11px;border-bottom:1px solid var(--line);overflow-wrap:anywhere;font-family:ui-monospace,monospace'>"+r.value+"</td></tr>").join("")||'<tr><td colspan="3" style="padding:14px">No matching values.</td></tr>';
+ summary.textContent=filtered.length+" values shown in filter · "+allRows.length+" powers for base "+(baseSelect.value||1);pageLabel.textContent="Page "+(page+1)+" / "+pages;
+ document.getElementById("powerPrev").disabled=page===0;document.getElementById("powerNext").disabled=page>=pages-1;
+}
+baseSelect.addEventListener("change",loadBase);search.addEventListener("input",()=>{page=0;render()});document.getElementById("powerPrev").addEventListener("click",()=>{page=Math.max(0,page-1);render()});document.getElementById("powerNext").addEventListener("click",()=>{page++;render()});loadBase();
+})();
+</script>
+
 <script>
 (function(){const $=NX.$;let assets=[];const imageExt=/\.(png|jpe?g|gif|webp|svg|avif|bmp|ico)$/i;
 function render(){const q=$("filter").value.toLowerCase().trim();const list=assets.filter(x=>(x.name+" "+x.repo+" "+x.path).toLowerCase().includes(q));$("galleryGrid").innerHTML=list.map(x=>'<article class="media-card"><a href="'+NX.url(x.raw)+'" target="_blank" rel="noopener"><img loading="lazy" src="'+NX.url(x.raw)+'" alt="'+NX.esc(x.name)+'" onerror="this.style.opacity=.25"></a><div class="media-caption"><strong>'+NX.esc(x.name)+'</strong><small>'+NX.esc(x.repo)+' · '+NX.esc(x.path)+'</small><a href="'+NX.url(x.page)+'" target="_blank" rel="noopener">Open source file ↗</a></div></article>').join("")||'<div class="empty">No images matched this filter.</div>';$("summary").textContent=list.length+" image assets shown · "+assets.length+" indexed";}
